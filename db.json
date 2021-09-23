@@ -1,0 +1,19 @@
+{
+  "book": [
+    {
+      "id": 1,
+      "name": "Mern stack for beginners",
+      "author": "Tushar shrivastav"
+    },
+    {
+      "id": 2,
+      "name": "Mean stack for beginners",
+      "author": "Tushar shrivastav"
+    },
+    {
+      "id": 3,
+      "name": "Mevn stack for beginners",
+      "author": "Tushar shrivastav"
+    }
+  ]
+}
