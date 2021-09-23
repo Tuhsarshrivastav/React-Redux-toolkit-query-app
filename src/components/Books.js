@@ -1,11 +1,9 @@
-import React from 'react'
-
+import React from "react";
+import { useGetBooksQuery } from "../app/services/bookService";
 const Books = () => {
-    return (
-        <div>
-            books
-        </div>
-    )
-}
+  const res = useGetBooksQuery();
+  console.log(JSON.stringify(res.data));
+  return <div>books</div>;
+};
 
-export default Books
+export default Books;
