@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { bookServices } from "./services/bookService";
+import { bookService } from "./services/bookService";
 const Store = configureStore({
   reducer: {
-    [bookServices.reducerPath]: bookServices.reducer,
+    [bookService.reducerPath]: bookService.reducer,
   },
 });
 
